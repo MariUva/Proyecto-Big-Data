@@ -67,6 +67,6 @@ class Main:
 
 if __name__ == "__main__":
     # Ruta del archivo PDF (reemplaza con la ruta de tu archivo PDF)
-    pdf_path = "C:/Users/maria/Downloads/cuento.pdf"
+    pdf_path = "./PDF//cuento.pdf"
     main_program = Main(pdf_path)
     main_program.run()
